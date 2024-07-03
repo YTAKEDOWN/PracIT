@@ -1,0 +1,127 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
+    background-color: #ECECEC;
+}
+
+.navbar-left img {
+    width: 120px;
+}
+
+.navbar-left img:hover {
+    cursor: pointer;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left>*,
+.navbar-right>* {
+    margin: 8px;
+}
+
+.navbar-left div:hover {
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.navbar-left input[type="text"] {
+    padding-right: 100px;
+    margin-left: 70px;
+}
+
+.navbar-left input[type="submit"] {
+    cursor: pointer;
+}
+
+.navbar-right img {
+    width: 30px;
+    height: 30px;
+}
+
+.sign-in,
+.cart {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.sign-in,
+.cart {
+    background-color: black;
+    color: white;
+}
+
+.sign-in:hover,
+.cart:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.container>h1 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.container>h3 {
+    text-align: center;
+}
+
+.button1 {
+    background-color: lightgrey;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: bold;
+    align-items: start;
+}
+
+.active,
+.button1:hover {
+    background-color: peru;
+}
+
+.pannel {
+    background-color: lightgray;
+    display: none;
+    margin: 30px, 30px, 30px;
+}
+
+.pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.4;
+}
+
+.faq {
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    margin: 3%;
+}
+
+.faq.active {
+    background-color: lightgrey;
+    border-width: 1px;
+}
