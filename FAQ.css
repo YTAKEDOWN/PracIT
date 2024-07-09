@@ -1,127 +1,66 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0px;
-    background-color: lightgray;
 }
 
-.navbar {
-    padding: 20px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.8);
-    background-color: #ECECEC;
+.container {
+    max-width: 75%;
+    margin: auto;
 }
 
-.navbar-left img {
-    width: 120px;
-}
-
-.navbar-left img:hover {
-    cursor: pointer;
-}
-
-.navbar-left div {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.navbar-left,
-.navbar-right {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-left>*,
-.navbar-right>* {
-    margin: 8px;
-}
-
-.navbar-left div:hover {
-    color: rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-}
-
-.navbar-left input[type="text"] {
-    padding-right: 100px;
-    margin-left: 70px;
-}
-
-.navbar-left input[type="submit"] {
-    cursor: pointer;
-}
-
-.navbar-right img {
-    width: 30px;
-    height: 30px;
-}
-
-.sign-in,
-.cart {
-    font-weight: 500;
-    border: 1px solid black;
-    border-radius: 40px;
-    padding: 5px 20px 5px 20px;
-}
-
-.sign-in,
-.cart {
-    background-color: black;
-    color: white;
-}
-
-.sign-in:hover,
-.cart:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-}
-
+.container>p,
 .container>h1 {
+    margin: 1.5rem 0;
     text-align: center;
     letter-spacing: 3px;
 }
 
-.container>h3 {
-    text-align: center;
-}
-
-.button1 {
-    background-color: lightgrey;
+.accordion {
+    background-color: white;
     color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
-    font-size: 15px;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
     border: none;
     outline: none;
     transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-weight: bold;
-    align-items: start;
+}
+
+.accordion i {
+    font-size: 1.6rem;
 }
 
 .active,
-.button1:hover {
-    background-color: peru;
+.accordion:hover {
+    background-color: #f1f7f5;
 }
 
 .pannel {
-    background-color: lightgray;
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
     display: none;
-    margin: 30px, 30px, 30px;
 }
 
 .pannel p {
     color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
     line-height: 1.4;
 }
 
 .faq {
-    border: 3px solid rgba(0, 0, 0, 0.7);
-    margin: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
 }
 
 .faq.active {
-    background-color: lightgrey;
-    border-width: 1px;
+    border: none;
 }
