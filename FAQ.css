@@ -5,25 +5,26 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container {
+.wrapper {
     max-width: 75%;
     margin: auto;
 }
 
-.container>p,
-.container>h1 {
-    margin: 1.5rem 0;
+.wrapper>p,
+.wrapper>h1 {
+    margin: 25px 0;
     text-align: center;
     letter-spacing: 3px;
+    padding-top: 5%;
 }
 
 .accordion {
     background-color: white;
     color: rgba(0, 0, 0, 0.8);
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 20px;
     width: 100%;
-    padding: 2rem 2.5rem;
+    padding: 30px 35px;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -33,17 +34,13 @@
     font-weight: bold;
 }
 
-.accordion i {
-    font-size: 1.6rem;
-}
-
 .active,
 .accordion:hover {
     background-color: #f1f7f5;
 }
 
 .pannel {
-    padding: 0 2rem 2.5rem 2rem;
+    padding: 0 20px 25px 20px;
     background-color: white;
     overflow: hidden;
     background-color: #f1f7f5;
@@ -52,8 +49,9 @@
 
 .pannel p {
     color: rgba(0, 0, 0, 0.7);
-    font-size: 1.2rem;
+    font-size: 17px;
     line-height: 1.4;
+    padding-left: 1.5%;
 }
 
 .faq {
